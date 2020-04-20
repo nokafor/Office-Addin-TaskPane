@@ -4,6 +4,7 @@
  */
 
 /* global console, document, Excel, Office */
+var $ = require( "jquery" );
 
 Office.onReady(info => {
   if (info.host === Office.HostType.Excel) {
