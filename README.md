@@ -37,12 +37,15 @@ code .
 > If you do not have Visual Studio Code installed, open the following project files in your favorite text editor.
 
 4. Copy your Script Lab snippet to clipboard
-<image>
+
+  ![script lab screenshot](assets/scriptlabcopy.png)
+  
   
 5. Paste contents into the "script-lab.txt" file in your project.
 
-
 6. In script-lab.txt, find the "content" section under "style". 
+
+  ![screenshot of content section from Script Lab](assets/scriptlabcontent.png)
 
 7. Copy the styling content and paste at the bottom of taskpane.css in the src/taskpane folder of the project.
 
