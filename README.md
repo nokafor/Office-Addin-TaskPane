@@ -2,10 +2,6 @@
 
 This repository is based on the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. It is meant as a starting point for developers who are using Script Lab and would like to create a full-fledged Office Add-in.
 
-## TypeScript
-
-This template is written using [TypeScript](http://www.typescriptlang.org/). For the JavaScript version of this template, go to [Office-Addin-TaskPane-JS](https://github.com/OfficeDev/Office-Addin-TaskPane-JS).
-
 ## Prerequisites
 
 Before using this template, ensure that you have the following installed on your machine:
@@ -66,6 +62,13 @@ var $ = require( "jquery" );
 12. Run "npm run build" to build the project and ensure there are no errors
 
 13. Run "npm start" to sideload the add-in and ensure it works.
+
+
+
+## TypeScript
+
+This template is written using [TypeScript](http://www.typescriptlang.org/). For the JavaScript version of this template, go to [Office-Addin-TaskPane-JS](https://github.com/OfficeDev/Office-Addin-TaskPane-JS).
+
 
 
 ## Debugging
