@@ -43,28 +43,27 @@ code .
   
 5. Paste contents into the "script-lab.txt" file in your project.
 
-6. In script-lab.txt, find the "content" section under "style". 
+6. In script-lab.txt, find the "content:" section under "style". 
 
   ![screenshot of content section from Script Lab](assets/scriptlabcontent.png)
 
 7. Copy the styling content and paste at the bottom of taskpane.css in the src/taskpane folder of the project.
 
-8. In script-lab.txt, find the "content" section under "template". Copy the template content. 
+8. In the script-lab.txt file, find the content section under "template". Copy the template content.
 
-9. Navigate to the taskpane.html file in the src/taskpane folder of project. Paste the content between the <main></main> tags, replacing the content already there.
+9. Navigate to the taskpane.html file in the src/taskpane folder of the project. Replace the existing content between the <main></main> tags in this document with the information you copied from the script-lab.txt file.
 
-10. In script-lab.txt, find the "content" section under "script". Copy the script content. 
+10. In the script-lab.txt file, find the content section under "script". Copy this script content.
 
-11. Navigate to the taskpane.ts file in the src/taskpane folder of project. Replace the content of the file with the copied script.
-At the top of taskpane.ts file, add the following line:
+11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the entire content of the file with the information you copied from the script-lab.txt file in the previous step. At the top of the taskpane.ts file, add the following line:
 
 ```
 var $ = require( "jquery" );
 ```
 
-12. Run "npm run build" to build the project and ensure there are no errors
+12. Run "npm run build" in the command line to build the project.
 
-13. Run "npm start" to sideload the add-in and ensure it works.
+13. Run "npm start" in the command line to sideload the add-in and ensure it works.
 
 
 
