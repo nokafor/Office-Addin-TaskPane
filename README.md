@@ -59,9 +59,29 @@ Before using this template, ensure that you have the following installed on your
 
 11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the run function (shown below) with the script content you copied from the script-lab.txt file in the previous step.
 
-        
-        var $ = require( "jquery" );
-        
+        ```
+        export async function run() {
+          try {
+            await Excel.run(async context => {
+              /**
+               * Insert your Excel code here
+               */
+              const range = context.workbook.getSelectedRange();
+
+              // Read the range address
+              range.load("address");
+
+              // Update the fill color
+              range.format.fill.color = "yellow";
+
+              await context.sync();
+              console.log(`The range address was ${range.address}.`);
+            });
+          } catch (error) {
+            console.error(error);
+          }
+        }
+        ```
 
 12. Save the changes in taskpane.ts, and open the command prompt or terminal again. Run "npm run build" in the project folder to build the changes.
 
