@@ -57,7 +57,7 @@ Before using this template, ensure that you have the following installed on your
 
 10. In the script-lab.txt file, find the content section under "script". Copy this script content.
 
-11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the entire content of the file with the information you copied from the script-lab.txt file in the previous step. At the top of the taskpane.ts file, add the following line:
+11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the run function (shown below) with the script content you copied from the script-lab.txt file in the previous step.
 
         
         var $ = require( "jquery" );
