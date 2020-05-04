@@ -59,13 +59,13 @@ Before using this template, ensure that you have the following installed on your
 
 11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the entire content of the file with the information you copied from the script-lab.txt file in the previous step. At the top of the taskpane.ts file, add the following line:
 
-```
-var $ = require( "jquery" );
-```
+        ```
+        var $ = require( "jquery" );
+        ```
 
-12. Run "npm run build" in the command line to build the project.
+12. Save the changes in taskpane.ts, and open the command prompt or terminal again. Run "npm run build" in the project folder to build the changes.
 
-13. Run "npm start" in the command line to sideload the add-in and ensure it works.
+13. Run "npm start" in the command prompt to sideload the add-in and ensure it works.
 
 
 
