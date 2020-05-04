@@ -18,16 +18,16 @@ Before using this template, ensure that you have the following installed on your
 
 1. Open a command prompt or terminal and run the following command to download this sample: 
 
-  ```
-  git clone https://github.com/nokafor/Office-Addin-TaskPane
-  ```
+    ```
+    git clone https://github.com/nokafor/Office-Addin-TaskPane
+    ```
 
 2. Run the following commands to navigate to the project root and install all the required dependencies.
 
-  ```
-  cd Office-Addin-Taskpane
-  npm install
-  ```
+    ```
+    cd Office-Addin-Taskpane
+    npm install
+    ```
 
 3. Once the install is finished, run the following to open the project in VS Code:
 
