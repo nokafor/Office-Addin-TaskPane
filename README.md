@@ -5,6 +5,7 @@ This repository is based on the source code used by the [Yo Office generator](ht
 ## Prerequisites
 
 Before using this template, ensure that you have the following installed on your machine:
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Node.js](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/download) (or your own text editor)
 - An Office subscription
@@ -17,24 +18,25 @@ Before using this template, ensure that you have the following installed on your
 
 1. Open a command prompt or terminal and run the following command to download this sample: 
 
-```
-git clone https://github.com/nokafor/Office-Addin-TaskPane
-```
+  ```
+  git clone https://github.com/nokafor/Office-Addin-TaskPane
+  ```
 
 2. Run the following commands to navigate to the project root and install all the required dependencies.
 
-```
-cd Office-Addin-Taskpane
-npm install
-```
+  ```
+  cd Office-Addin-Taskpane
+  npm install
+  ```
 
 3. Once the install is finished, run the following to open the project in VS Code:
 
-```
-code .
-```
+    ```
+    code .
+    ```
 
 > If you do not have Visual Studio Code installed, open the following project files in your favorite text editor.
+
 
 4. Copy your Script Lab snippet to clipboard
 
