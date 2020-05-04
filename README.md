@@ -7,8 +7,8 @@ This repository is based on the source code used by the [Yo Office generator](ht
 Before using this template, ensure that you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/download) (or your own text editor)
-- An Office subscription (you can get a free subscription through the [M365 Developer Program](https://aka.ms/o365devprogram) if you do not have one already)
-- a command prompt or terminal
+- An Office subscription
+- a command prompt (or terminal if on Mac)
 
 > Command prompts and terminals are normally preinstalled on your machine if you are on Windows or Mac respectively
 
