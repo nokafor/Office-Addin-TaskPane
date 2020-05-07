@@ -38,9 +38,9 @@ Before using this template, ensure that you have the following installed on your
 > If you do not have Visual Studio Code installed, open the following project files in your favorite text editor.
 
 
-4. Go back to the Code page in Script Lab, and copy your Script Lab snippet to clipboard (see picture for more detail)
+4. Go back to the Code page in Script Lab, and copy your Script Lab snippet to clipboard (see picture below for more detail)
 
-    ![script lab screenshot](assets/scriptlabcopy.png)
+    ![script lab export screenshot](assets/scriptlabcopy.png)
   
   
 5. Paste contents into the "script-lab.txt" file in your project.
