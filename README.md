@@ -84,6 +84,7 @@ Before using this template, ensure that you have the following installed on your
         ```
 
 12. Save the changes in taskpane.ts, and open the command prompt or terminal again. Run "npm run build" in the project folder to build the changes.
+> If you did not run "npm install" before, you must run it in order for the last few steps to work.
 
 13. Run "npm start" in the command prompt to sideload the add-in and ensure it works.
 
