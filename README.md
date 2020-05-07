@@ -45,17 +45,17 @@ Before using this template, ensure that you have the following installed on your
   
 5. Paste contents into the "script-lab.txt" file in your project.
 
-6. In script-lab.txt, find the "content:" section under "style". 
+6. In script-lab.txt, find the "content:" section under "style". This should match the CSS code you have in Script Lab.
 
     ![screenshot of content section from Script Lab](assets/scriptlabcontent.png)
 
 7. Copy the styling content and paste at the bottom of taskpane.css in the src/taskpane folder of the project. Save the changes.
 
-8. In the script-lab.txt file, find the content section under "template". Copy the template content.
+8. In the script-lab.txt file, find the content section under "template". Copy the template content. This should match the HTML code you have in Script Lab.
 
 9. Navigate to the taskpane.html file in the src/taskpane folder of the project. Replace the existing content between the <main></main> tags in this document with the information you copied from the script-lab.txt file. Save the changes.
 
-10. In the script-lab.txt file, find the content section under "script". Copy this script content.
+10. In the script-lab.txt file, find the content section under "script". Copy this script content. This should match the JS code you have in Script lab.
 
 11. Navigate to the taskpane.ts file in the src/taskpane folder of the project. Replace the run function (shown below) with the script content you copied from the script-lab.txt file in the previous step.
 
